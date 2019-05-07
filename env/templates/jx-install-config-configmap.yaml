@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQU1efzQyayDoz+QAlBfE8CzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4ODRmZWZjYi02MTg3LTRlZTYtYjZhMS0wNzBhMDc1Y2VmMmYw
+    HhcNMTkwNTA3MTAyOTQ4WhcNMjQwNTA1MTEyOTQ4WjAvMS0wKwYDVQQDEyQ4ODRm
+    ZWZjYi02MTg3LTRlZTYtYjZhMS0wNzBhMDc1Y2VmMmYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC4VpNVQa72xmR7SzhV41xxLCv2GKKLdjw1x0foxcc6
+    rolCzI2L98SK8Fj0whW70ZqdPpoGAv28uY3w1UU7PRkQGywQpySX/Mb/obVweEAI
+    VydITLPOykHYRzKH7jd5CqR/IOhSuPnihlo0AJRNRxtqTx6xfAvjhlFSYR7uzbJq
+    ZtWcr9xGgCv7LgLNd5rUv/RbzONqqmrijzEvJHZOc3QsW7f078rVgSi+PPvo8J9q
+    Eq26iNUXh8cPBbJiYUVKR/wiDZwPvzgJD438et5IST7maxEjtq0j5cYZ06D+iTMC
+    O9I8Fpf3Noci1Xmz9H0g5m58zdPxDrV0AeCDs1WfcDsbAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAk
+    /9AG3uPikZqowWhc4mk6bxahb3VIVHmGEE6ZWCfTuac9Zr0vkUA0jvUIIjCdEVwj
+    /5ZLW5F3VOsfOoIn4VXrUVUXH/FeLWUjyg9na+Eq6hbKbyKY2ovPXCRudrzUOGtg
+    M/dOjmaNDgjXWjtR7l90ib2yUEjjcOTut3ZpsdmulwSHPhpS14pq8e/zHjFNG9LN
+    4mhqg2Pi8Wl9upugH1aDGDAfjdz4y3m32xR7SH0z//LlFLL7nvbap08v/zM0eWO2
+    3SmQHyFs0mRcGJIzeeZfUjHKcyF/gd3K1KRNOXT+FHKmC6Ff4Nm0VCIVRlrl9sO9
+    F+gjJ1XL+59YypPzxLOi
+    -----END CERTIFICATE-----
+  clusterName: sightsplash
+  jx-install-version: 2.0.0-dev+3ca6a4549
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://104.199.105.165
+  systemVaultName: jx-vault-sightsplash
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
